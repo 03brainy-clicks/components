@@ -2,19 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .animate {
-@apply  transform transition duration-[400ms] ;
+  @apply transform transition duration-[400ms];
 }
 .animate2 {
-@apply transform transition duration-1000 ;
+  @apply transform transition duration-1000;
 }
 
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.getInTouch {
+  background-image: url("./assets/getintouch-back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
 
 .callsection {
   background-image: url("./assets/image-4.png");

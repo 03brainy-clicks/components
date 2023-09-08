@@ -2,13 +2,13 @@ import React from "react";
 
 const StoreCard = ({ heading, tags, address, image }) => {
   return (
-    <div className="flex rounded-3xl min-w-[300px] basis-1 grow  group relative overflow-hidden">
-      <div className="w-full bg-red-500">
-        {/* <img
+    <div className="flex rounded-3xl min-w-[300px] max-h-[423px] group relative overflow-hidden">
+      <div className="w-full  ">
+        <img
           src={image}
           alt=""
-          className="w-full h-full  scale-100 group-hover:scale-[1.15] animate"
-        /> */}
+          className="w-full h-full group-hover:scale-[1.15] animate object-cover"
+        />
         <div
           id="animation-carousel"
           className="relative w-full"
