@@ -20,6 +20,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+input[type="radio"]:checked {
+  background-color: #ececec;
+  color: #ececec;
+}
+
 .getInTouch {
   background-image: url("./assets/getintouch-back.png");
   background-size: cover;
