@@ -1,11 +1,16 @@
 import "./App.css";
 import ContactUs from "./ContactUs";
-// import Landing from "./pages/Landing";
+import GallerySuccess from "./components/GallerySuccess";
+import Stories from "./components/Stories";
+import Landing from "./pages/Landing";
 
 function App() {
   return (
     <>
-      {/* <Landing />*/}
+      {" "}
+      <Stories />
+      <GallerySuccess/>
+      <Landing />
       <ContactUs />
     </>
   );
